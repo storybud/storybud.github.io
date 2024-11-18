@@ -1,4 +1,12 @@
 
+@font-face {
+	font-family: 'Napoli';
+	src: url('/fonts/Napoli.ttf') format('ttf');
+	font-style: normal;
+	font-display: swap;
+}
+
+
 :root {
  --primary: #e3fce9;
  --secondary: #d2d6ff;
@@ -6,6 +14,7 @@
 }
 
 body {
+    font-family: 'Napoli';
     background-color: var(--primary);
     color: var(--tertiary);
 }
