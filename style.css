@@ -1,0 +1,11 @@
+
+:root {
+ --primary: #e3fce9;
+ --secondary: #d2d6ff;
+ --tertiary: #ffcfa2;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--tertiary);
+}
