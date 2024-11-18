@@ -1,11 +1,13 @@
 
 @font-face {
-	font-family: 'Napoli';
-	src: url('/fonts/Napoli.ttf') format('ttf');
+	font-family: Napoli;
+	src: url('fonts/Napoli.ttf') format('ttf');
 	font-style: normal;
 	font-display: swap;
 }
 
+@font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); } 
+@font-face { font-family: Delicious; font-weight: bold; src: url('Delicious-Bold.otf');}
 
 :root {
  --primary: #e3fce9;
@@ -14,7 +16,7 @@
 }
 
 body {
-    font-family: 'Napoli';
+    font-family: Napoli;
     background-color: var(--primary);
     color: var(--tertiary);
 }
