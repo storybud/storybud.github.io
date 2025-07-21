@@ -79,4 +79,4 @@ class PopupInfo extends HTMLElement {
     }
   }
 
-  customElements.define("popup-info", PopupInfo);
+  // customElements.define("popup-info", PopupInfo);
