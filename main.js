@@ -85,7 +85,7 @@ class PopupInfo extends HTMLElement {
 var settings = { 
 "async": true, 
 "crossDomain": true, 
-"url": "https://atlas.api.barclays/open-banking/v2.1/atms", 
+"url": fetch("https://cors-anywhere.herokuapp.com/https://atlas.api.barclays/open-banking/v2.1/atms"), 
 "method": "GET", 
 "headers": { 
 "cache-control": "no-cache", 
