@@ -80,3 +80,17 @@ class PopupInfo extends HTMLElement {
   }
 
   // customElements.define("popup-info", PopupInfo);
+
+  //ATM Locator 
+var settings = { 
+"async": true, 
+"crossDomain": true, 
+"url": "https://atlas.api.barclays/open-banking/v2.1/atms", 
+"method": "GET", 
+"headers": { 
+"cache-control": "no-cache", 
+} 
+} 
+$.ajax(settings).done(function (response) { 
+console.log(response); 
+});
