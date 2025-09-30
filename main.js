@@ -81,12 +81,17 @@ class PopupInfo extends HTMLElement {
 
   // customElements.define("popup-info", PopupInfo);
 
+  // var test = fetch("https://cors-anywhere.herokuapp.com/https://atlas.api.barclays/open-banking/v2.1/atms")
+
+  // console.log(test)
+
   //ATM Locator 
 var settings = { 
 "async": true, 
 "crossDomain": true, 
-"url": fetch("https://cors-anywhere.herokuapp.com/https://atlas.api.barclays/open-banking/v2.1/atms"), 
-"method": "GET", 
+"url": "https://atlas.api.barclays/open-banking/v2.1/atms", 
+"method": "GET",
+"dataType": 'jsonp',
 "headers": { 
 "cache-control": "no-cache", 
 } 
