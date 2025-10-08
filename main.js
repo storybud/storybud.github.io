@@ -81,21 +81,26 @@ class PopupInfo extends HTMLElement {
 
   // customElements.define("popup-info", PopupInfo);
 
-  // var test = fetch("https://cors-anywhere.herokuapp.com/https://atlas.api.barclays/open-banking/v2.1/atms")
-
-  // console.log(test)
 
   //ATM Locator 
-var settings = { 
-"async": true, 
-"crossDomain": true, 
-"url": "https://atlas.api.barclays/open-banking/v2.1/atms", 
-"method": "GET",
-"dataType": 'jsonp',
-"headers": { 
-"cache-control": "no-cache", 
-} 
-} 
-$.ajax(settings).done(function (response) { 
-console.log(response); 
-});
+// var settings = { 
+// async: true, 
+// crossDomain: true, 
+// contentType: "application/json; charset=utf-8",
+// async:false,
+// url: "https://atlas.api.barclays/open-banking/v2.1/atms", 
+// method: "GET",
+// dataType: 'jsonp',
+// jsonpCallback: 'fnsuccesscallback',
+// headers : { 
+// "cache-control": "no-cache", 
+// } 
+// } 
+
+// $(document).ready(function () {
+//   $.ajax(settings).done(function (response) { 
+//   console.log(response); 
+//   });
+
+//   console.log('bastad'); 
+// });
